@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin-Soft</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+</head>
+<body>
+     <!-- side bar-->
+     <div class="sidebar">
+         <div class="sidebar-brand">
+             <h1><span class="fab fa-accusoft">AdminSoft</span></h1>
+         </div>
+
+         <div class="sidebar-menu">
+             <ul>
+                 <li>
+                     <a href="" class="active"><span class="fas fa-igloo"><span></span>Dashboard</span></a>
+                 </li>
+                 <li>
+                     <a href=""><span class="fas fa-users"><span></span>Customers</span></a>
+                 </li>
+                 <li>
+                     <a href=""><span class="fas fa-clipboard-list"><span></span>Projects</span></a>
+                 </li>
+                 <li>
+                     <a href=""><span class="fas fa-shopping-bag"><span></span>Orders</span></a>
+                 </li>
+                 <li>
+                     <a href=""><span class="fas fa-receipt"><span></span>Inventory</span></a>
+                 </li>
+                 <li>
+                     <a href=""><span class="fas fa-user-circle"><span></span>Accounts</span></a>
+                 </li>
+                 <li>
+                     <a href=""><span class="fas fa-clipboard-list"><span></span>Task</span></a>
+                 </li>
+             </ul>
+         </div>
+     </div>
+
+     <!-- main content-->
+     <section class="main-content">
+         <header>
+             <h1>
+                 <label for="">
+                     <span class="fas fa-bars"></span>
+                 </label>
+                 Dashboard
+             </h1>
+
+             <div class="search-wrapper">
+                 <span class="fas fa-search"></span>
+                 <input type="search" placeholder="Search hare">
+             </div>
+
+             <div class="user-wrapper">
+                 <img src="img/avatar.png" alt="User" width="40px" height="30px">
+                 <div>
+                     <h2>John Doe</h2>
+                     <small>Supper Admin</small>
+                 </div>
+             </div>
+         </header>
+
+         <main>
+
+            <div class="cards">
+                <div class="card-single">
+                    <div>
+                        <h1>54</h1>
+                        <span>Customers</span>
+                    </div>
+                    <div>
+                        <span class="fas fa-users"></span>
+                    </div>
+                </div>
+                <div class="card-single">
+                    <div>
+                        <h1>67</h1>
+                        <span>Projects</span>
+                    </div>
+                    <div>
+                        <span class="fas fa-clipboard-list"></span>
+                    </div>
+                </div>
+                <div class="card-single">
+                    <div>
+                        <h1>124</h1>
+                        <span>Orders</span>
+                    </div>
+                    <div>
+                        <span class="fas fa-shopping-bag"></span>
+                    </div>
+                </div>
+                <div class="card-single">
+                    <div>
+                        <h1>$54k</h1>
+                        <span>Income</span>
+                    </div>
+                    <div>
+                        <span class="fab fa-google-wallet"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recent-grid">
+                <div class="projects">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2>Recent Projects</h2>
+                            <button>See All <span class="fas fa-arrow-right"></span></button>
+                        </div>
+                        <div class="card-body">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <td>Project Title</td>
+                                        <td>Department</td>
+                                        <td>Status</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>UI/UX Design</td>
+                                        <td>UI Team</td>
+                                        <td><span class="status"></span>Review</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Web Development</td>
+                                        <td>Front Ended</td>
+                                        <td><span class="status"></span>In Progress</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Ushop Apps</td>
+                                        <td>Ushop Ream</td>
+                                        <td><span class="status"></span>Pending</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>UI/UX Design</td>
+                                        <td>UI Team</td>
+                                        <td><span class="status"></span>Review</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Web Development</td>
+                                        <td>Front Ended</td>
+                                        <td><span class="status"></span>In Progress</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Ushop Apps</td>
+                                        <td>Ushop Ream</td>
+                                        <td><span class="status"></span>Pending</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="customers">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>New Customers</h3>
+                            <button>See All <span class="fas fa-arrow-right"></span></button>
+                        </div>
+                        <div class="card-body">
+                            <div class="customer">
+                                <div>
+                                    <img src="img/avatar.png" alt="Customer" width="40px" height="40px">
+                                    <div>
+                                        <h4>Lewis S. Cunningham</h4>
+                                        <small>CEO of Tech</small>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="fas fa-user-circle"></span>
+                                    <span class="fas fa-comment"></span>
+                                    <span class="fas fa-phone"></span>
+                                </div>
+                            </div>
+
+                            <div class="customer">
+                                <div>
+                                    <img src="img/avatar.png" alt="Customer" width="40px" height="40px">
+                                    <div>
+                                        <h4>Lewis S. Cunningham</h4>
+                                        <small>CEO of Tech</small>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="fas fa-user-circle"></span>
+                                    <span class="fas fa-comment"></span>
+                                    <span class="fas fa-phone"></span>
+                                </div>
+                            </div>
+
+                            <div class="customer">
+                                <div>
+                                    <img src="img/avatar.png" alt="Customer" width="40px" height="40px">
+                                    <div>
+                                        <h4>Lewis S. Cunningham</h4>
+                                        <small>CEO of Tech</small>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="fas fa-user-circle"></span>
+                                    <span class="fas fa-comment"></span>
+                                    <span class="fas fa-phone"></span>
+                                </div>
+                            </div>
+
+                            <div class="customer">
+                                <div>
+                                    <img src="img/avatar.png" alt="Customer" width="40px" height="40px">
+                                    <div>
+                                        <h4>Lewis S. Cunningham</h4>
+                                        <small>CEO of Tech</small>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="fas fa-user-circle"></span>
+                                    <span class="fas fa-comment"></span>
+                                    <span class="fas fa-phone"></span>
+                                </div>
+                            </div>
+
+                            <div class="customer">
+                                <div>
+                                    <img src="img/avatar.png" alt="Customer" width="40px" height="40px">
+                                    <div>
+                                        <h4>Lewis S. Cunningham</h4>
+                                        <small>CEO of Tech</small>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="fas fa-user-circle"></span>
+                                    <span class="fas fa-comment"></span>
+                                    <span class="fas fa-phone"></span>
+                                </div>
+                            </div>
+
+                            <div class="customer">
+                                <div>
+                                    <img src="img/avatar.png" alt="Customer" width="40px" height="40px">
+                                    <div>
+                                        <h4>Lewis S. Cunningham</h4>
+                                        <small>CEO of Tech</small>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="fas fa-user-circle"></span>
+                                    <span class="fas fa-comment"></span>
+                                    <span class="fas fa-phone"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                </div>
+            </div>
+         </main>
+     </section>
+</body>
+</html>
